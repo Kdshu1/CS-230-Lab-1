@@ -1,23 +1,28 @@
 import React from 'react';
 
-const Card = () => {
-  return (
-    <div className="card-container">
-      <div className="card">
-        <h2>Card 1</h2>
-        <p>This is the content of card 1.</p>
-      </div>
-      <div className="card">
-        <h2>Card 2</h2>
-        <p>This is the content of card 2.</p>
-      </div>
-      <div className="card">
-        <h2>Card 3</h2>
-        <p>This is the content of card 3.</p>
-      </div>
+    <div class="card-group">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is the cards content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
-  );
-}
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is the cards content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is the cards content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
 
 export default Card;
 
